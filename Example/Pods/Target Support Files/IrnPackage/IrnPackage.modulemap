@@ -1,0 +1,6 @@
+framework module IrnPackage {
+  umbrella header "IrnPackage-umbrella.h"
+
+  export *
+  module * { export * }
+}

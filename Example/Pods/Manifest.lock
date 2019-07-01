@@ -1,0 +1,16 @@
+PODS:
+  - IrnPackage (0.1.0)
+
+DEPENDENCIES:
+  - IrnPackage (from `../`)
+
+EXTERNAL SOURCES:
+  IrnPackage:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  IrnPackage: c889c5e0246d39bf90e9f88a801d3ed4d6faf772
+
+PODFILE CHECKSUM: 2479146c6cf7f533fd87ada6767220e66ec9ee93
+
+COCOAPODS: 1.5.3

@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		425ADCEA2E8DD7A5A0698424 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		425ADCEA2E8DD7A5A0698424 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4E5CC5E2D484610A8A2F5D68 /* Pods-IrnPackage_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IrnPackage_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-IrnPackage_Tests/Pods-IrnPackage_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* IrnPackage_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IrnPackage_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -64,8 +64,8 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9875452A71CE70ABD5DCFDA0 /* Pods_IrnPackage_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IrnPackage_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5C3E7FBA259D9263A746553 /* Pods-IrnPackage_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IrnPackage_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-IrnPackage_Example/Pods-IrnPackage_Example.release.xcconfig"; sourceTree = "<group>"; };
-		AF9B92FE4394C03F3E99CECB /* IrnPackage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = IrnPackage.podspec; path = ../IrnPackage.podspec; sourceTree = "<group>"; };
-		BB063ED77AF03B3B43E563EE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AF9B92FE4394C03F3E99CECB /* IrnPackage.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = IrnPackage.podspec; path = ../IrnPackage.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB063ED77AF03B3B43E563EE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F95795E5DF4A38BB22C45D5C /* Pods-IrnPackage_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IrnPackage_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IrnPackage_Tests/Pods-IrnPackage_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -257,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
